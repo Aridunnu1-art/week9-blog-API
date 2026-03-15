@@ -9,9 +9,9 @@ const articleSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  author: {
-    type: String,
-    required: true
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref:"user"
   }
 }, { timestamps: true });
 const Article =  mongoose.model("Article", articleSchema);

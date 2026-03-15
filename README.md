@@ -11,5 +11,5 @@ This project is a simple Blog API built with Node.js, Express, and MongoDB.
 
 ## Notes
 - MongoDB Atlas connection failed due to configuration issues during submission.
-- Server runs successfully on port 5000.
+- Server runs successfully on port 3007.
 - API routes are implemented and ready to work once MongoDB connection is fixed.
